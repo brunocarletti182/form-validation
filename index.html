@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Form validation</title>
+</head>
+<body>
+  <main>
+    <section class="questions">
+      <div class="questions__content">
+        <h1 class="questions__title">FICOU COM DÚVIDA?<br>NOS MANDE UMA MENSAGEM!</h1>
+        <p class="questions__p">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+      </div>
+      <form class="questions__form">
+        <input class="questions__input required" type="text" name="name" placeholder="Nome completo *">
+        <p class="questions__required-field">Campo obrigatório</p>
+        <input class="questions__input required" type="email" name="email" placeholder="Email *">
+        <p class="questions__required-field">Campo obrigatório</p>
+        <input class="questions__input required" type="number" name="phone" placeholder="Phone *">
+        <p class="questions__required-field">Campo obrigatório</p>
+        <textarea class="questions__input required questions_text" type="text" name="subject" placeholder="Mensagem *"></textarea>   
+        <p class="questions__required-field">Campo obrigatório</p>
+        <p class="questions__required">*Campos obrigatórios</p>
+        <input class="questions__submit" type="submit" value="Enviar">
+      </form>
+    </section>
+  </main>
+
+  <script src="./index.js"></script>
+</body>
+</html>
