@@ -10,7 +10,7 @@ If empty, the fields should turn red, and a "mandatory field" message should be 
 
 ![Project image below](./images/form-validation.png)
 
-You can access the project by clicking on the link below:
+You can access the webpage by clicking on the link below:
 
 https://brunocarletti182.github.io/form-validation/
 
